@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+
 }
 
 ol, ul {
@@ -99,11 +100,16 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		/* background-color: #935d8c;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+
+		background: #935d8c;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #e37682, #935d8c);
+    	background: linear-gradient(to right, #e37682, #935d8c);
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,8 +126,10 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		background: #935d8c;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+    	background: linear-gradient(to right, #ffdde1, #ee9ca7);
+
 	}
 
 	body, input, select, textarea {
@@ -315,7 +323,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 	}
 
 	blockquote {
