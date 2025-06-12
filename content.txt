@@ -1,0 +1,40 @@
+UNT – Webpage: https://html5up.net/story 
+Style: Story
+
+
+
+
+Block #1 - Introduction
+	•	Picture of faculty
+	•	Information to Include
+	•	Dana Booker, PhD
+	•	Senior Lecturer
+	•	Department of Educational Psychology
+	•	UNT Email
+	•	CV (element)
+	•	LinkedIn (element)
+	•	Program Instagram Page (elements)
+Block #2 – Teaching
+	•	Picture of faculty engaging in class
+	•	Quote or brief statement of teaching
+	•	After the click – inside block #2
+	•	Summary of pedagogy
+	•	List of courses taught
+	•	Example of teaching project or assignment
+	•	More photos?
+Block #3 – Service
+	•	Picture of faculty in service
+	•	Quote or brief statement of teaching
+	•	After the click - inside block #3
+	•	Summary of service
+	•	List of services
+	•	UNT (across levels)
+	•	Professional
+	•	Example of projects? Presentations?
+	•	More photos?
+Block #4 – Outreach
+	•	Picture of UW Jungle Bells Event
+	•	After the click - inside block #3
+	•	UNT partnerships and collaborations
+	•	Professional outreach
+	•	Community outreach
