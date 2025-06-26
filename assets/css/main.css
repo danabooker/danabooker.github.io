@@ -106,9 +106,9 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 
-		background: #935d8c;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #e37682, #935d8c);
-    	background: linear-gradient(to right, #e37682, #935d8c);
+		background: #e8e3e8;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #e8e3e4, #f6eff5);
+    	background: linear-gradient(to right, #ebe5e6, #f4edf3);
 
 	}
 
@@ -126,9 +126,9 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background: #935d8c;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
-    	background: linear-gradient(to right, #ffdde1, #ee9ca7);
+		background: #f1ecf0;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #f7e1e3, #e3dbdc);
+    	background: linear-gradient(to right, #ffdde1, #f7eef0);
 
 	}
 
@@ -143,6 +143,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 14pt;
+
 			}
 
 		}
@@ -323,7 +324,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: black;
+		color: gray;
 	}
 
 	blockquote {
@@ -1847,7 +1848,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 8px;
+		border-radius: 5px;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -1965,7 +1966,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #636363;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1975,7 +1976,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+				background-color: #efa8b0;
 			}
 
 			input[type="submit"].primary:active,
@@ -1983,7 +1984,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #efa8b0;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2357,7 +2358,8 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #645b5b;
+		
 	}
 
 		.icon.alt:hover {
@@ -2460,7 +2462,7 @@ input, select, textarea {
 				}
 
 	dl {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		dl dt {
@@ -2482,7 +2484,9 @@ input, select, textarea {
 		}
 
 		dl.alt dd {
-			margin: 0 0 0.85em 5.5em;
+			margin: 0 0 0.4em 5.5em;
+			text-align: left;
+			color:#504a4a;
 		}
 
 		dl.alt:after {
@@ -2496,7 +2500,8 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: #645b5b;
+		text-align: left;
 	}
 
 /* Actions */
@@ -3419,7 +3424,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #71717b;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3429,7 +3434,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: #efa8b0;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3437,7 +3442,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+					background-color: #efa8b0;
 				}
 
 				#main input[type="submit"].primary.icon:before,
@@ -3791,3 +3796,150 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* Teaching */
+
+.Teaching-container{
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 50px;
+}
+
+.Teaching-container .Teaching-content{
+	width: 40%;
+
+}
+
+.Teaching-container .Teaching-image{
+	width: 60%;
+}
+
+/*Service*/
+
+.service-container{
+	display: flex;
+	gap: 50px;
+}
+
+.service-container .service-content{
+	width: 40%;
+
+}
+
+.service-container .service-image{
+	width: 60%;
+}
+
+/*outreach*/
+
+.outreach-container{
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 50px;
+}
+
+.outreach-container .outreach-content{
+	width: 40%;
+
+}
+
+.outreach-container .outreach-image{
+	width: 60%;
+}
+
+
+
+#header.alt h1 {
+	color: #615a5a;
+	font-size: 3.5em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+}
+
+#header.alt p {
+	color: #615a5a;
+	font-size: 1em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+}
+
+.main .professional-outreach2 {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	font-size: smaller;
+}
+.professional-outreach-activities {
+  	background-color: #f9f4f4 ;
+	border: 0.5px solid #f9f4f4d3;	
+	padding: 1em;
+	flex : 1;
+	text-align: left;
+	padding-bottom: 2em;
+}
+
+.professional-outreach-activities ul{
+	  margin: 0 0 0 0;
+}
+
+.professional-outreach-activities ol{
+	  margin: 0 0 0 0;
+}
+
+.main .professional-outreach2 {
+  list-style-type: none;
+  padding: 2em;
+}
+
+.main .professional-outreach2 li::marker {
+  content: '✓';
+  color: #df7f8a;
+  font-size: 1em;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#footer section {
+  text-align: center;
+}
+
+#footer .actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* footer */
+
+ #wrapper #footer{
+			padding-bottom: 100px;
+		}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.introbody{
+	text-align: justify;
+}
