@@ -106,9 +106,9 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 
-		background: #e8e3e8;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #e8e3e4, #f6eff5);
-    	background: linear-gradient(to right, #ebe5e6, #f4edf3);
+		background: #e3e0cb;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #dfddce, #f3f1e5);
+    	background: linear-gradient(to right, #e3e0cb, #e3e0cb);
 
 	}
 
@@ -126,9 +126,9 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background: #f1ecf0;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #f7e1e3, #e3dbdc);
-    	background: linear-gradient(to right, #ffdde1, #f7eef0);
+		background: #e3e0cb;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #dddaca,#f1eedb);
+    	background: linear-gradient(to right, #e3e0cb, #dedac2);
 
 	}
 
@@ -1976,7 +1976,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #efa8b0;
+				background-color: #b8b49c;
 			}
 
 			input[type="submit"].primary:active,
@@ -1984,7 +1984,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #efa8b0;
+				background-color: #b9b69c;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -3014,13 +3014,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			/* border-radius: 100%; */
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				width: 16em;
 			}
 
@@ -3434,7 +3434,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #efa8b0;
+					background-color: #e3e0cb;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3442,7 +3442,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #efa8b0;
+					background-color: #e3e0cb;
 				}
 
 				#main input[type="submit"].primary.icon:before,
@@ -3708,10 +3708,10 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 	}
 
-		#footer > * {
+		/* #footer > * {
 			width: calc(50% - 2em);
 			margin-left: 2em;
-		}
+		} */
 
 		#footer .copyright {
 			width: 100%;
@@ -3871,8 +3871,8 @@ input, select, textarea {
 	font-size: smaller;
 }
 .professional-outreach-activities {
-  	background-color: #f9f4f4 ;
-	border: 0.5px solid #f9f4f4d3;	
+  	background-color: #f0f1ecd3 ;
+	border: 0.5px solid #f0f1ecd3;	
 	padding: 1em;
 	flex : 1;
 	text-align: left;
@@ -3887,14 +3887,24 @@ input, select, textarea {
 	  margin: 0 0 0 0;
 }
 
+.main .professional-outreach1 {
+  text-align: justify;
+}
 .main .professional-outreach2 {
   list-style-type: none;
-  padding: 2em;
+  padding: 1em;
+  text-align: justify;
 }
 
 .main .professional-outreach2 li::marker {
   content: '✓';
-  color: #df7f8a;
+  color: #61605b;
+  font-size: 1em;
+}
+
+.main .professional-outreach2 .professional-outreach-activities-bulletpoints li::marker {
+  content: '*';
+  color: #61605b;
   font-size: 1em;
 }
 
@@ -3943,3 +3953,30 @@ input, select, textarea {
 .introbody{
 	text-align: justify;
 }
+
+.contact-section {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	justify-content: space-between;
+	/* padding: 20px; */
+
+}	
+
+.contact-item {
+	display: block;
+	flex: 2;
+	text-align: center; 
+}
+
+.contact-item dd
+{margin-left: 0;}
+
+.contact-section .contact-item dt {
+	color: #645b5b;
+	text-align: center  !important;
+	}
+
+#footer .contact-item {
+	width: 100%;
+}	
