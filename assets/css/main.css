@@ -109,6 +109,7 @@ input, select, textarea {
 		background: #e3e0cb;  /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #dfddce, #f3f1e5);
     	background: linear-gradient(to right, #e3e0cb, #e3e0cb);
+		background:  url("/images/background_2.jpg") no-repeat 2% 98% fixed !important;
 
 	}
 
@@ -3016,6 +3017,8 @@ input, select, textarea {
 			padding: 0.65em;
 			/* border-radius: 100%; */
 			border: solid 1px;
+			box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+			
 		}
 
 			.spotlight .image img {
@@ -3813,6 +3816,11 @@ input, select, textarea {
 
 .Teaching-container .Teaching-image{
 	width: 60%;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  	border-radius: 6px;
+	border: 1px solid #efe8e8; /* or any color you like */
+  	box-sizing: border-box;
+	padding: 0.5em;
 }
 
 /*Service*/
@@ -3829,6 +3837,11 @@ input, select, textarea {
 
 .service-container .service-image{
 	width: 60%;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  	border-radius: 6px;
+	border: 1px solid #efe8e8; /* or any color you like */
+  	box-sizing: border-box;
+	padding: 0.5em;
 }
 
 /*outreach*/
@@ -3846,6 +3859,11 @@ input, select, textarea {
 
 .outreach-container .outreach-image{
 	width: 60%;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  	border-radius: 6px;
+	border: 1px solid #efe8e8; /* or any color you like */
+  	box-sizing: border-box;
+	padding: 0.5em;
 }
 
 
