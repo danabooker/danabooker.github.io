@@ -109,7 +109,7 @@ input, select, textarea {
 		background: #e3e0cb;  /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #dfddce, #f3f1e5);
     	background: linear-gradient(to right, #e3e0cb, #e3e0cb);
-		background:  url("/images/background_2.jpg") no-repeat 2% 98% fixed !important;
+		background:  url("/images/background_2.jpg") no-repeat center center fixed !important;
 
 	}
 
@@ -130,6 +130,7 @@ input, select, textarea {
 		background: #e3e0cb;  /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #dddaca,#f1eedb);
     	background: linear-gradient(to right, #e3e0cb, #dedac2);
+		background:  url("/images/background_2.jpg") no-repeat center center fixed !important;
 
 	}
 
